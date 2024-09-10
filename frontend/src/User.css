@@ -1,0 +1,42 @@
+/* src/User.css */
+.app-container {
+    background: url('./assets/sartex.jpg') no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(15px);
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .table-container {
+    width: 80%; /* Adjusted for better spacing */
+    background: rgba(255, 255, 255, 0.85); /* Slight transparency for background */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .table th,
+  .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Increased space between buttons */
+  }
+  
+  .btn-group .btn {
+    flex: 1; /* Make buttons equal width */
+    margin: 0 5px; /* Small margin for better spacing */
+  }
+  

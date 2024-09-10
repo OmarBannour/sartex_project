@@ -1,0 +1,38 @@
+/* src/UpdateUser.css */
+.update-container {
+    background: url('./assets/sartex.jpg') no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(15px);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .update-card {
+    width: 50%; /* Adjusted width for the form */
+    background: rgba(255, 255, 255, 0.85); /* Slight transparency */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .update-card .form-control {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .update-card .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  

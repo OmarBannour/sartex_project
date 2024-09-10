@@ -1,0 +1,58 @@
+/* CountPage.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('./assets/sartex.jpg') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(15px);
+  padding: 20px; 
+}
+  
+  
+  .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333; /* Dark text color */
+  }
+  
+  .count {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #007BFF; /* Primary color for the count */
+  }
+  
+  .error {
+    color: #dc3545; /* Red color for errors */
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #28a745; /* Green background for the reset button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .reset-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
